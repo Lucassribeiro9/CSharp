@@ -1,0 +1,21 @@
+﻿using System;
+
+namespace Ex03Cond
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int N = int.Parse(Console.ReadLine());
+
+            if (N % 2 == 0)
+            {
+                Console.WriteLine($"{N} é par!");
+            }
+            else
+            {
+                Console.WriteLine($"{N} é impar!");
+            }
+        }
+    }
+}

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30517.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetodoConstrutor", "MetodoConstrutor\MetodoConstrutor.csproj", "{A52F8B7A-9044-4BA7-BC3E-3481A90A744D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A52F8B7A-9044-4BA7-BC3E-3481A90A744D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A52F8B7A-9044-4BA7-BC3E-3481A90A744D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A52F8B7A-9044-4BA7-BC3E-3481A90A744D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A52F8B7A-9044-4BA7-BC3E-3481A90A744D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E3868A40-B42E-4417-92CE-0F003B626CD5}
+	EndGlobalSection
+EndGlobal
