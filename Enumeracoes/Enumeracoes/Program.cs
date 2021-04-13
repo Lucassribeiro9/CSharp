@@ -21,5 +21,6 @@ namespace Enumeracoes
 
             Console.WriteLine(os);
             Console.WriteLine(txt);
+        }
     }
 }
