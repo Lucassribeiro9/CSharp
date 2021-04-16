@@ -46,6 +46,7 @@ namespace ExEnum01.Entities
                     sum += contract.TotalValue();
                 }
             }
+            return sum;
         }
     }
 
