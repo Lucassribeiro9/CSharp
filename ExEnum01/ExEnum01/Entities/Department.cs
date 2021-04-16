@@ -8,12 +8,12 @@ namespace ExEnum01.Entities
     {
         public string Name { get; set; }
 
-        public Department()
+        public Department() // construtor padrão
         {
 
         }
 
-        public Department(string name)
+        public Department(string name) // construtor com argumentos
         {
             Name = name;
         }

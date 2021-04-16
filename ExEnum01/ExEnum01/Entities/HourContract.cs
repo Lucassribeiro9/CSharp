@@ -21,7 +21,7 @@ namespace ExEnum01.Entities
             Hours = hours;
         }
 
-        public double TotalValue()
+        public double TotalValue() // retorna o valor total do contrato
         {
             return Hours * ValuePerHour;
         }
