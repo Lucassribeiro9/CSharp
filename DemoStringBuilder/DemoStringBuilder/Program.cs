@@ -1,5 +1,6 @@
 ﻿using DemoStringBuilder.Entities;
 using System;
+using System.Text;
 
 namespace DemoStringBuilder
 {
@@ -14,6 +15,20 @@ namespace DemoStringBuilder
                 "Traveling to New Zeland",
                 "I'm going to visit this wonderful country",
                 12);
+            p1.AddComment(c1);
+            p1.AddComment(c2);
+
+            Comment c3 = new Comment("Good night");
+            Comment c4 = new Comment("May the force be with you");
+            Post p2 = new Post(DateTime.Parse("28/07/2018 23:14:19"),
+                "Good night guys",
+                "See you tomorrow",
+                 5);
+            p2.AddComment(c3);
+            p2.AddComment(c4);
+
+            Console.WriteLine(p1);
+            Console.WriteLine(p2);
         }
     }
 }
