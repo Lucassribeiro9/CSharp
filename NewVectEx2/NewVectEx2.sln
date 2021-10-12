@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30517.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewVectEx2", "NewVectEx2\NewVectEx2.csproj", "{B9CF7AE3-BF59-4F42-8BEA-9551CBBAD57D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B9CF7AE3-BF59-4F42-8BEA-9551CBBAD57D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9CF7AE3-BF59-4F42-8BEA-9551CBBAD57D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9CF7AE3-BF59-4F42-8BEA-9551CBBAD57D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9CF7AE3-BF59-4F42-8BEA-9551CBBAD57D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {062364DE-67BB-4047-8BA3-601435FEB13B}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30517.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassReturnStudy", "ClassReturnStudy\ClassReturnStudy.csproj", "{19CC1B23-4561-427A-8EA0-9EF55A5BC458}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{19CC1B23-4561-427A-8EA0-9EF55A5BC458}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19CC1B23-4561-427A-8EA0-9EF55A5BC458}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19CC1B23-4561-427A-8EA0-9EF55A5BC458}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19CC1B23-4561-427A-8EA0-9EF55A5BC458}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DAA3B729-44A3-48D8-9734-BA53D2F02833}
+	EndGlobalSection
+EndGlobal

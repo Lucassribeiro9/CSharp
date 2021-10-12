@@ -6,13 +6,24 @@ namespace Course
         public string Nome;
         public double Preco;
         public int Quantidade;
-        
+
         // método construtor
+        public Produto()
+        {
+
+        }
+        
         public Produto(string nome, double preco, int quantidade)
         {
             Nome = nome;
             Preco = preco;
             Quantidade = quantidade;
+        }
+        public Produto(string nome, double preco)
+        {
+            Nome = nome;
+            Preco = preco;
+            Quantidade = 0; // por padrão, atributos numericos começam com zero, logo, essa linha não é necessaria
         }
         public double ValorTotalEmEstoque()
         {

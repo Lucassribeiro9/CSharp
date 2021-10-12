@@ -15,7 +15,7 @@ namespace Course
             Console.Write("Quantidade no estoque: ");
             int quantidade = int.Parse(Console.ReadLine());
             // instanciando o método construtor
-            Produto p = new Produto(nome, preco, quantidade);
+            Produto p = new Produto(nome, preco);
             Console.WriteLine();
             Console.WriteLine("Dados do produto: " + p);
             Console.WriteLine();
@@ -30,6 +30,7 @@ namespace Course
             p.RemoverProdutos(qte);
             Console.WriteLine();
             Console.WriteLine("Dados atualizados: " + p);
+            
         }
     }
 }
