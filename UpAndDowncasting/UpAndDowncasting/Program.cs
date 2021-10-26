@@ -21,7 +21,9 @@ namespace UpAndDowncasting
             BusinessAccount acc4 = (BusinessAccount)acc2; // converter em downcasting
             acc4.Loan(100); // os métodos só valem se o objeto for do tipo da classe
 
-          //  BusinessAccount acc5 = (BusinessAccount)acc3; // embora não tenha apontado erro no compilador, não é possível a conversão
+            // BusinessAccount acc5 = (BusinessAccount)acc3; // embora não tenha apontado erro no compilador, não é possível a conversão
+            BusinessAccount acc5 = acc3 as BusinessAccount; // outro método de casting
+            
             if (acc3 is BusinessAccount)
             {
                 BusinessAccount acc6 = (BusinessAccount)acc3;

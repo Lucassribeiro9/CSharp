@@ -14,6 +14,11 @@ namespace UpAndDowncasting.Entities
         {
             InterestRate = interestRate;
         }
+
+        public override void Withdraw(double amount)
+        {
+            Balance -= amount;
+        }
         public void UpdateBalance()
         {
             Balance += Balance * InterestRate;
