@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ExIntroInterface.Services
 {
-    class BrazilTaxService
+    class BrazilTaxService : ITaxService
     {
         public double Tax(double amount)
         {

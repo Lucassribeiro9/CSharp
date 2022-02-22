@@ -22,7 +22,7 @@ namespace ExIntroInterface
             double priceDay = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
             CarRental carRental = new CarRental(start, finish, new Vehicle(model));
-            RentalService rentalService = new RentalService(priceHr, priceDay);
+            RentalService rentalService = new RentalService(priceHr, priceDay, new BrazilTaxService());
             rentalService.ProcessInvoice(carRental);
 
             Console.WriteLine("Invoice: ");
