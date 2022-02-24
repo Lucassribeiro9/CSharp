@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30517.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HerancaInterface", "HerancaInterface\HerancaInterface.csproj", "{3DD52D11-4BD7-405D-9FE2-293BAC2A2093}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3DD52D11-4BD7-405D-9FE2-293BAC2A2093}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DD52D11-4BD7-405D-9FE2-293BAC2A2093}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DD52D11-4BD7-405D-9FE2-293BAC2A2093}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DD52D11-4BD7-405D-9FE2-293BAC2A2093}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6D84C174-DA7F-4317-A8D0-37E19052A156}
+	EndGlobalSection
+EndGlobal
