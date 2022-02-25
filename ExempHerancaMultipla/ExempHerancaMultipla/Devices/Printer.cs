@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ExempHerancaMultipla.Devices
 {
-    class Printer : Device
+    class Printer : Device, IPrinter
     {
         public override void ProcessDoc(string doc)
         {

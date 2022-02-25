@@ -13,6 +13,11 @@ namespace ExempHerancaMultipla
             Scanner s = new Scanner() { SerialNumber = 200 };
             s.ProcessDoc("My email");
             Console.WriteLine(s.Scan());
+            ComboDevice c = new ComboDevice() { SerialNumber = 500 };
+            c.ProcessDoc("My dissertation");
+            c.Print("My dissertation");
+            Console.WriteLine(c.Scan());
+
         }
     }
 }
