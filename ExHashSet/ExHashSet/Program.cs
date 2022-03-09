@@ -6,7 +6,7 @@ using System.IO;
 namespace ExHashSet
 {
     class Program
-    {
+    { // use a pasta temp
         static void Main(string[] args)
         {
             HashSet<LogRecord> set = new HashSet<LogRecord>();
