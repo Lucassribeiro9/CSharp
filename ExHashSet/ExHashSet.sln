@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30517.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExHashSet", "ExHashSet\ExHashSet.csproj", "{C6E2DCF7-218C-41B5-8DC6-949AA283ADEE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C6E2DCF7-218C-41B5-8DC6-949AA283ADEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6E2DCF7-218C-41B5-8DC6-949AA283ADEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6E2DCF7-218C-41B5-8DC6-949AA283ADEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6E2DCF7-218C-41B5-8DC6-949AA283ADEE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CEBC2143-1480-4D30-823C-CC40F6795F08}
+	EndGlobalSection
+EndGlobal
