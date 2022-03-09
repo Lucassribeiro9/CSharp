@@ -1,4 +1,4 @@
-﻿using ExConjHash.Entities;
+﻿
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -45,5 +45,5 @@ namespace ExConjHash
             Console.WriteLine("Total students: " + all.Count);
         }
     }
-    }
+    
 }
