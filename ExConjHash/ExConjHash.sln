@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30517.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExConjHash", "ExConjHash\ExConjHash.csproj", "{FE48FB08-3102-4C85-89A5-FF06D384AD0F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE48FB08-3102-4C85-89A5-FF06D384AD0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE48FB08-3102-4C85-89A5-FF06D384AD0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE48FB08-3102-4C85-89A5-FF06D384AD0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE48FB08-3102-4C85-89A5-FF06D384AD0F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EA5949E2-0EC2-4E66-B56D-5F984B82A012}
+	EndGlobalSection
+EndGlobal
