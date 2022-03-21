@@ -20,8 +20,7 @@ namespace Comparison
                 double price = int.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
                 list.Add(new Product(name, price));
             }
-            Comparison<Product> comp = (p1, p2) => p1.Name.ToUpper().CompareTo(p2.Name.ToUpper());
-            list.Sort(comp);
+            list.Sort((p1, p2) => p1.Name.ToUpper().CompareTo(p2.Name.ToUpper()));
             foreach (Product p in list)
             {
                 Console.WriteLine(p);
