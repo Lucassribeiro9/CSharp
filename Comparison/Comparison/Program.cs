@@ -26,6 +26,7 @@ namespace Comparison
                 Console.WriteLine(p);
             }
         }
+        // só pra commitar
         static int CompareProducts(Product p1, Product p2)
         {
             return p1.Name.ToUpper().CompareTo(p2.Name.ToUpper());
