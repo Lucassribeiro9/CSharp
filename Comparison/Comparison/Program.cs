@@ -20,7 +20,8 @@ namespace Comparison
                 double price = int.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
                 list.Add(new Product(name, price));
             }
-            list.Sort(CompareProducts);
+            Comparison<Product> comp = CompareProducts; // guardei a referencia como uma função e usei a como argumento
+            list.Sort(comp);
             foreach (Product p in list)
             {
                 Console.WriteLine(p);
