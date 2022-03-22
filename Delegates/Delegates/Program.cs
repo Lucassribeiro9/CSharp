@@ -13,7 +13,7 @@ namespace Delegates
 
             BinaryNumericOperation op = CalculationServices.Sum;
 
-            double result = op(a, b);
+            double result = op.Invoke(a, b);
             Console.WriteLine(result);
         }
     }
