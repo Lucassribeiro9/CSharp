@@ -5,16 +5,16 @@ namespace Delegates
 {
     class Program
     {
-        delegate double BinaryNumericOperation(double n1, double n2); // referencia da função
+        delegate void BinaryNumericOperation(double n1, double n2); // referencia da função
         static void Main(string[] args)
         {
             double a = 10;
             double b = 12;
 
-            BinaryNumericOperation op = CalculationServices.Sum;
-
-            double result = op(a, b);
-            Console.WriteLine(result);
+            BinaryNumericOperation op = CalculationServices.ShowSum;
+            op += CalculationServices.ShowMax; // delegate agora guarda a referencia para duas funções
+            op.Invoke(a, b);
+            
         }
     }
 }
