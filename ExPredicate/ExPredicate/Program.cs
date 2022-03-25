@@ -17,7 +17,7 @@ namespace ExPredicate
 
             Action<Product> act = p => { p.Price += p.Price * 0.1; }; // as chaves são para indicar que a função não irá retornar algo, por ser void
             
-            list.ForEach(act);
+            list.ForEach(p => { p.Price += p.Price * 0.1; });
             foreach (Product p in list)
             {
                 Console.WriteLine(p);
