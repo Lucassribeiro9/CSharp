@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Validadores.Services;
 
 namespace Validadores
 {
@@ -15,6 +16,38 @@ namespace Validadores
         public Form1()
         {
             InitializeComponent();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void maskedTextBox1_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        {
+            maskedTextBoxCPF.Text = "";
+            maskedTextBoxCPF.Mask = "000,000,000-00";
+            maskedTextBoxCPF.MaskInputRejected += new MaskInputRejectedEventHandler(maskedTextBox1_MaskInputRejected);
+        }
+
+        private void btnValidarCPF_Click(object sender, EventArgs e)
+        {
+            string valor = maskedTextBoxCPF.Text;
+            string mensagem;
+            if (Validador.IsCpf(valor))
+            {
+                mensagem = "CPF válido";
+            }
+            else
+            {
+                mensagem = "CPF inválido";
+            }
+            MessageBox.Show(mensagem);
         }
     }
 }
