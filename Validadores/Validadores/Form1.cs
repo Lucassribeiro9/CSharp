@@ -39,7 +39,7 @@ namespace Validadores
         {
             string valor = maskedTextBoxCPF.Text;
             string mensagem;
-            if (Validador.IsCpf(valor))
+            if (Validador.ValidaCPF(valor))
             {
                 mensagem = "CPF válido";
             }
